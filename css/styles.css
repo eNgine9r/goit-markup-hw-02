@@ -1,3 +1,24 @@
 body {
-    background-color: tomato;
+    background-color: #FFFFFF;
+    color: #757575;
 }
+
+ul {
+    list-style: none;
+}
+
+/* головний колір тексту #757575 */
+/* другорядний коліт тексту #212121*/
+/* білий коір #FFFFFF */
+/* акцент #2196F3 */
+/* головний колір фону #FFFFFF */
+/* другорядний колір фону #F5F4FA */
+
+.logo {
+    color: #000000;
+}
+
+.logo-span{
+    color: #2196F3;
+}
+
