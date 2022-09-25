@@ -1,23 +1,103 @@
-body {
-    background-color: #ffffff;
-    color: #757575;
+/* Лого колір тексту #000000 */
+/* головний колір тексту #757575 */
+/* другорядний коліт тексту #212121 */
+/* головний колір фону, колір тексту #FFFFFF */
+/* колір акценту #2196F3 */
+/* другорядний колір фону #F5F4FA */
+
+:root {
+    --priamary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --hero-text-color: #FFFFFF;
+    --bacground-priamary: #ff7979;
+    --bacground-color: #F5F4FA;
+
 }
 
-ul {
+body {
+    background-color: var(--bacground-priamary);
+    color: var(--priamary-text-color);
+}
+
+.list {
     list-style: none;
 }
 
-/* головний колір тексту #757575 */
-/* другорядний коліт тексту #212121*/
-/* білий коір #FFFFFF */
-/* акцент #2196F3 */
-/* головний колір фону #FFFFFF */
-/* другорядний колір фону #F5F4FA */
+/* Logo */
 
 .logo {
     color: #000000;
 }
 
 .logo-span {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color)
+}
+
+.header-address .link {
+    color: var(--priamary-text-color);
+}
+
+.header-address .link:hover, .header-address .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--hero-text-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list {
+    color: var(--priamary-text-color);
+}
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+
+/* Button */
+
+.button {
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary{
+    color: var(--accent-color);
+    background-color: var(--bacground-color);
+}
+
+.button.primary {
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+
+/* Team */
+
+.team-title {
+    color: var(--title-text-color);
 }
