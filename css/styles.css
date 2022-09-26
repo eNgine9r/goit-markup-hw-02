@@ -1,23 +1,28 @@
 /* Лого колір тексту #000000 */
 /* головний колір тексту #757575 */
 /* другорядний коліт тексту #212121 */
-/* головний колір фону, колір тексту #FFFFFF */
+/* колір тексту #FFFFFF */
 /* колір акценту #2196F3 */
+/* головний колір тексту #F5F5F5 */
 /* другорядний колір фону #F5F4FA */
+/* колір фону футеда */
+
 
 :root {
     --priamary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --hero-text-color: #FFFFFF;
-    --bacground-priamary: #ff7979;
+    --hero-footer-text-color: #FFFFFF;
+    --bacground-priamary: #F5F5F5;
     --bacground-color: #F5F4FA;
+    --bacground-footer-color: #2F303A;
 
 }
 
 body {
     background-color: var(--bacground-priamary);
     color: var(--priamary-text-color);
+    font-family: Roboto, sans-serif;
 }
 
 .list {
@@ -40,7 +45,8 @@ body {
     color: var(--title-text-color);
 }
 
-.site-nav .link:hover, .site-nav .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: var(--accent-color);
 }
 
@@ -48,18 +54,20 @@ body {
     color: var(--accent-color)
 }
 
-.header-address .link {
+.address-link .link {
     color: var(--priamary-text-color);
 }
 
-.header-address .link:hover, .header-address .link:focus {
+.address-link .link:hover,
+.address-link .link:focus {
     color: var(--accent-color);
 }
 
 /* Hero */
 
 .hero-title {
-    color: var(--hero-text-color);
+    color: var(--hero-footer-text-color);
+    background-color: #000000;
 }
 
 /* Section */
@@ -78,26 +86,53 @@ body {
     color: var(--title-text-color);
 }
 
-
 /* Button */
 
 .button {
-    color: var(--hero-text-color);
+    color: var(--hero-footer-text-color);
     background-color: var(--accent-color);
 }
 
-.button.secondary{
+.button.secondary {
     color: var(--accent-color);
     background-color: var(--bacground-color);
 }
 
 .button.primary {
-    color: var(--hero-text-color);
+    color: var(--hero-footer-text-color);
     background-color: var(--accent-color);
+}
+
+.button-list {}
+
+.button-list:hover,
+.button-list:focus {
+    color: var(--hero-footer-text-color);
+    background-color: var(--accent-color)
 }
 
 /* Team */
 
 .team-title {
     color: var(--title-text-color);
+}
+
+.team-text {
+    color: var(--priamary-text-color);
+}
+
+/* Footer */
+
+.footer-link {
+    color: var(--hero-footer-text-color);
+}
+
+/* Portfolio page styles */
+
+.portfolio-title {
+    color: var(--title-text-color);
+}
+
+.portfolio-text {
+    color: var(--priamary-text-color);
 }
