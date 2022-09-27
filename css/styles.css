@@ -37,6 +37,7 @@ body {
     font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo-span {
@@ -51,6 +52,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -68,6 +70,7 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .address-link .link:hover,
@@ -163,12 +166,16 @@ body {
 }
 
 /* Footer */
+.footer{
+    background-color: var(--bacground-footer-color);
+}
 
 .footer-logo{
     color: var(--hero-footer-text-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
 }
 
 .footer-link {
@@ -176,6 +183,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
 }
 
 /* Portfolio page styles */
