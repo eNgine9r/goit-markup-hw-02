@@ -14,7 +14,7 @@
     --accent-color: #2196F3;
     --hero-footer-text-color: #FFFFFF;
     --bacground-priamary: #F5F5F5;
-    --bacground-color: #F5F4FA;
+    --bacground-color-team: #F5F4FA;
     --bacground-footer-color: #2F303A;
 
 }
@@ -47,6 +47,10 @@ body {
 
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -60,6 +64,10 @@ body {
 
 .address-link .link {
     color: var(--priamary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
 }
 
 .address-link .link:hover,
@@ -72,22 +80,39 @@ body {
 .hero-title {
     color: var(--hero-footer-text-color);
     background-color: #000000;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Section */
 
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1, 17;
+    text-align: center;
 }
 
 /* Features */
 
 .feature-list {
     color: var(--priamary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .feature-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* Button */
@@ -99,7 +124,7 @@ body {
 
 .button.secondary {
     color: var(--accent-color);
-    background-color: var(--bacground-color);
+    background-color: var(--hero-footer-text-color);
 }
 
 .button.primary {
@@ -117,26 +142,55 @@ body {
 
 /* Team */
 
+.team {
+    background-color: var(--bacground-color-team);
+}
+
 .team-title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 .team-text {
     color: var(--priamary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 /* Footer */
 
+.footer-logo{
+    color: var(--hero-footer-text-color);
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
 .footer-link {
     color: var(--hero-footer-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Portfolio page styles */
 
 .portfolio-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
 }
 
 .portfolio-text {
     color: var(--priamary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,88px;
 }
