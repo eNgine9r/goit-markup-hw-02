@@ -123,6 +123,7 @@ body {
 .button {
     color: var(--hero-footer-text-color);
     background-color: var(--accent-color);
+    cursor: pointer
 }
 
 .button.secondary {
@@ -135,7 +136,9 @@ body {
     background-color: var(--accent-color);
 }
 
-.button-list {}
+.button-list {
+    cursor: pointer
+}
 
 .button-list:hover,
 .button-list:focus {
@@ -166,11 +169,11 @@ body {
 }
 
 /* Footer */
-.footer{
+.footer {
     background-color: var(--bacground-footer-color);
 }
 
-.footer-logo{
+.footer-logo {
     color: var(--hero-footer-text-color);
     font-family: Raleway, sans-serif;
     font-size: 26px;
