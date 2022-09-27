@@ -66,7 +66,7 @@ body {
     color: var(--priamary-text-color);
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
@@ -94,7 +94,7 @@ body {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 1, 17;
+    line-height: 1.17;
     text-align: center;
 }
 
@@ -192,5 +192,5 @@ body {
     color: var(--priamary-text-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,88px;
+    line-height: 1.88;
 }
