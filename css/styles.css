@@ -189,11 +189,19 @@ body {
 
 .footer-address{
     font-style: normal;
+    list-style: none;
 }
 
-.footer-address .link{
+.footer .link{
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
+
+.footer .link:hover, 
+.footer .link:focus{
+    color: var(--accent-color)
+}
+
 
 .footer-logo {
     color: var(--hero-footer-text-color);
